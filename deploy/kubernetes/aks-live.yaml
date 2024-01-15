@@ -3,7 +3,7 @@ image:
   pullPolicy: Always
 
 service:
-  targetPort: 8087
+  targetPort: 5000
 
 secretEnv:
   Weather__ApiKey:
