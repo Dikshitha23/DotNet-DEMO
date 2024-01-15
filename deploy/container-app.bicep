@@ -116,7 +116,7 @@ resource containerApp 'Microsoft.Web/containerApps@2021-03-01' = {
       ingress: {
         allowInsecure: true
         external: true
-        targetPort:8087
+        targetPort:5000
       }
     }
   }
